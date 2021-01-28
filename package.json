@@ -23,7 +23,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://miluku1018.github.io/scenic_spot",
+  "homepage": "https://miluku1018.github.io/scenic_spot/",
   "eslintConfig": {
     "extends": [
       "react-app",
