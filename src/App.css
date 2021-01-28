@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+.table {
+  text-align: left;
+  margin: auto;
+  width: 40%;
+}
+.ReactVirtualized__Table__headerRow {
+  display: flex;
+  flex-direction: row;
+  background-color: #cccccc4a;
+}
+.ReactVirtualized__Table__row {
+  display: flex;
+}
+
+.ReactVirtualized__Table__rowColumn,
+.ReactVirtualized__Table__headerColumn {
+  border: 1px solid #d2d0d0;
+  padding: 10px;
+}
+
+.ReactVirtualized__Table__row:nth-child(even) {
+  background-color: #cccccc4a;
+}
